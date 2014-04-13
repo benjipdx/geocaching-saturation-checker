@@ -1,0 +1,237 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[geocaching (1).loc]]></name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20140413001447">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>ffffffff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>Violet LaPlanted</name>
+        <description><![CDATA[GC1NQZ8, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1NQZ8">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.788083,46.195217</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Don't Jump!</name>
+        <description><![CDATA[GC1NKP1, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1NKP1">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.788333,46.196967</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great view of the Columbia</name>
+        <description><![CDATA[GC1PG19, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1PG19">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.7842,46.197983</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alderbrook Creek</name>
+        <description><![CDATA[GC1PADE, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1PADE">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.774983,46.198117</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pier Into The Past </name>
+        <description><![CDATA[GC1CGHY, by Mysphet<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1CGHY">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.79745,46.1969</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fallout III</name>
+        <description><![CDATA[GC20HNH, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC20HNH">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.77255,46.19605</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grey Poupon</name>
+        <description><![CDATA[GC1QNGW, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1QNGW">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.774283,46.1995</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slow down, or you're going to need these!</name>
+        <description><![CDATA[GC20HN2, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC20HN2">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.7715,46.198533</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Never Say Die!</name>
+        <description><![CDATA[GC28THA, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC28THA">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.8,46.192583</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Side View</name>
+        <description><![CDATA[GC3ZBBH, by ferbin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC3ZBBH">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.79725,46.183917</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Secret Glade</name>
+        <description><![CDATA[GC2A4MW, by Jan&Joe<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2A4MW">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.765133,46.195533</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mystery Road</name>
+        <description><![CDATA[GC2AXXG, by Jan&Joe<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2AXXG">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.762683,46.192667</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Safe from Downpour</name>
+        <description><![CDATA[GC46GPH, by HikerGene<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC46GPH">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.809117,46.192467</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>34 Tons</name>
+        <description><![CDATA[GC2H37X, by chefben445<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2H37X">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.808167,46.188033</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cathedral Tree Cache</name>
+        <description><![CDATA[GC1NA3R, by Mysphet<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1NA3R">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.80865,46.183317</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crossroads</name>
+        <description><![CDATA[GC3TWPP, by wheresyourlobster<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC3TWPP">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.79045,46.174933</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rock of Ruck</name>
+        <description><![CDATA[GC18XTD, by Paul_D_K<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC18XTD">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.815033,46.191317</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Foundit</name>
+        <description><![CDATA[GC154Q9, by himilecyclist<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC154Q9">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.814617,46.182217</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mossed In</name>
+        <description><![CDATA[GC1P60H, by tgjamin<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1P60H">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.819417,46.190383</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Water Pulse</name>
+        <description><![CDATA[GC3ATBD, by wheresyourlobster<p><a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC3ATBD">[Web link]</a></p>]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-123.8141,46.179333</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
