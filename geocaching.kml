@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Sat Apr 12 22:20:03 2014</snippet>
+    <LookAt>
+      <longitude>-122.693425</longitude>
+      <latitude>45.497900</latitude>
+      <range>2209.360309</range>
+    </LookAt>
+<!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+<!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>GC47D39</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC47D39">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.689450,45.500333</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC2M85T</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2M85T">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.695100,45.500550</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4XM1Z</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4XM1Z">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.696483,45.497883</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC1KAQK</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1KAQK">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.688083,45.496917</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GCJ5EA</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GCJ5EA">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.690150,45.494800</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC43TGT</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC43TGT">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.696350,45.495900</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4Y4TT</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4Y4TT">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.692333,45.494533</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC2AY6F</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2AY6F">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.692500,45.503333</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4XM2A</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4XM2A">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.696000,45.494350</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC1DK7G</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1DK7G">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.686633,45.502617</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC2DF57</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC2DF57">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.693133,45.493033</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GCJ5E8</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GCJ5E8">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.688717,45.493133</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC1946P</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC1946P">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.697150,45.503867</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4Y6AB</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4Y6AB">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.691067,45.492050</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4XM43</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4XM43">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.700217,45.502267</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4TCHR</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4TCHR">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.698678,45.493545</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GC4XM32</name>
+        <snippet/>
+        <description>
+<![CDATA[<a href="http://www.geocaching.com/seek/cache_details.aspx?wp=GC4XM32">Cache Details</a>]]>        </description>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-122.694717,45.491933</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

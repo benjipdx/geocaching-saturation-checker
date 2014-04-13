@@ -10,3 +10,13 @@ Currently, since the Geocaching.com api is not public, I'm going to try to popul
 Any contributions or steps in the right direction would be greatly welcome. If you want to contact me you can check out my website, http://benreichert.com/contact.html for means to do so. 
 
 I hope this works out and it is a usable project!
+
+
+See it in progress
+==================
+
+In the directory where you cloned the repo, do:
+
+``python -m SimpleHTTPServer``
+
+and connect to localhost:8000/map.html
