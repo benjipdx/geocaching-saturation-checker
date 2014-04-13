@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<!-- Things that were helpful
+http://stackoverflow.com/questions/11156204/parse-kml-file-with-geoxml3-and-makerclusterer
+https://code.google.com/p/geoxml3/wiki/JsonObjects
+https://code.google.com/p/geoxml3/wiki/ParserReference
+http://www.gpsvisualizer.com/map_input?form=googleearth
+
+-->
 <html>
   <head>
     <title>Geocaching Saturation Checker</title>
@@ -31,7 +39,7 @@
       createMarker: addMyMarker,
     });
 
-    myParser.parse('geocaching.kml');
+    myParser.parse('geocaching2.kml');
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
