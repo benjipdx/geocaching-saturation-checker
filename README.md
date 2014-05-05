@@ -20,3 +20,8 @@ In the directory where you cloned the repo, do:
 ``python -m SimpleHTTPServer``
 
 and connect to localhost:8000/map.html
+
+What it looks like now
+======================
+
+![view of the app](./view.png)

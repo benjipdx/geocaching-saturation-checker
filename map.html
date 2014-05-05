@@ -27,6 +27,7 @@ http://www.gpsvisualizer.com/map_input?form=googleearth
     var map;
     var geocoder;
     var markers = [];
+    var cache_image = "http://www.geocaching.com/images/WptTypes/2.gif"
 
     function initialize() {
       geocoder = new google.maps.Geocoder();
@@ -70,7 +71,11 @@ http://www.gpsvisualizer.com/map_input?form=googleearth
 
     function addMarker(placemark){
       var point = new google.maps.LatLng(placemark.Point.coordinates[0].lat, placemark.Point.coordinates[0].lng);
-      var marker = new google.maps.Marker({position:point});
+      var marker = new google.maps.Marker({
+        position: point,
+        icon: cache_image,
+        map: map,
+      });
       var circle = new google.maps.Circle({
         map: map,
         radius: 80, //in meters, should be roughly 256 ft radius, so in accordance with the 512ft boundaries
@@ -99,20 +104,14 @@ http://www.gpsvisualizer.com/map_input?form=googleearth
       setAllMap(map);
     }
 
-    // Deletes all markers in the array by removing references to them.
-    function deleteMarkers() {
-      clearMarkers();
-      markers = [];
-    }
   </script>
   </head>
   <body>
     <div id="panel">
       <input id="address" type="textbox" value="Astoria, Oregon">
-      <input type="button" value="Geocode" onclick="codeAddress()">
-      <input onclick="clearMarkers();" type=button value="Hide Markers">
-      <input onclick="showMarkers();" type=button value="Show All Markers">
-      <input onclick="deleteMarkers();" type=button value="Delete Markers">
+      <input type="button" value="Mark Cache Location" onclick="codeAddress()">
+      <input onclick="clearMarkers();" type=button value="Hide Geocache Logos">
+      <input onclick="showMarkers();" type=button value="Show Geocache Logos">
       <input type="file" value="Upload KML">
     </div>
     <div id="map-canvas"></div>
